@@ -10,35 +10,34 @@
 
 
 
-function factorial(n) //untouched besides formatting as of now
+function factorial(n) 
 {
     if(n === 0) 
     {
         return 1;
     }
         
-    else()
+    else
     {
         return n * factorial(n - 1);
     }
 }
 
-
-function e(n) //now functions as bottom up dynamic programming as directed? No more repeated work?
+function e(n) //verify this is actually bottom up dynamic programming, trace to see if any repeated work
 {
     var sum = 0;
-    var nextFactorial = 1;
-    var currentTerm = 0;
+    var currentFactorial = 1; 
+    var currentVal = 0;
 
-    while(currentTerm <= n) 
+    while(currentVal <= n) 
     {
-        sum += 1.0 / nextFactorial;
-        currentTerm++;
-        
-        if(currentTerm <= n) 
+        if (currentVal > 0) 
         {
-            nextFactorial *= currentTerm;
+            currentFactorial = factorial(currentVal);
         }
+        
+        sum += 1.0 / currentFactorial;
+        currentVal++;
     }
 
     return sum;
