@@ -33,7 +33,7 @@ function e(n)
     {
         if(currentVal > 0) 
         {
-            currentFactorial = factorial(currentVal);
+            currentFactorial *= currentVal;
         }
         
         sum += 1.0 / currentFactorial;
