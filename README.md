@@ -39,7 +39,7 @@ Feedback Request 1 Date: X
 
 
 
-Response: WIP
+Response: 
 
 The implementation calculates Euler's number through seeking the follow Euler's summation formula using the implementation and stored values.
 
@@ -47,11 +47,11 @@ The primary logic of the implementation is held within the `e(n)` function.
 
 Within the `e(n)` function, shown in the while loop structure `while(currentVal <= n)`, the factorial values are computed iteratively rather than recursively. 
 
-The `currentFactorial` variable maintains state across loop iterations, as seen in the critical update line `currentFactorial = factorial(currentVal)` which is only called when `currentVal > 0`.
+The `currentFactorial` variable maintains state across loop iterations, as seen in the critical update line `currentFactorial *= currentVal` which is only called when `currentVal > 0`.
 
 This allows each new factorial to be calculated in constant time by multiplying the previous value.
 
-The `factorial()` function's purpose is to help avoid repeated work via the iterative factorial update functionality within the summation `sum += 1.0 / currentFactorial`. 
+The `factorial()` function's purpose is to help logically avoid repeated work via the iterative factorial update functionality within the summation `sum += 1.0 / currentFactorial`. 
 
 Each iteraton of the loop performs only constant work via only having to perform simple constant operations. 
 
