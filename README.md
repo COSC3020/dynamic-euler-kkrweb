@@ -83,6 +83,6 @@ Plagiarism Acknowledgement: I certify that I have listed all sources used to com
 
 Citations:
 
-https://programming.guide/dynamic-programming-vs-memoization-vs-tabulation.html
+“Dynamic Programming vs Memoization vs Tabulation | Programming.Guide.” Programming.guide, 2016, programming.guide/dynamic-programming-vs-memoization-vs-tabulation.html. Accessed 21 Apr. 2025.
 
-https://cs.stackexchange.com/questions/99513/dynamic-programming-vs-memoization
+Dynamic Programming vs Memoization. “Dynamic Programming vs Memoization.” Computer Science Stack Exchange, 2 Nov. 2018, cs.stackexchange.com/questions/99513/dynamic-programming-vs-memoization. Accessed 21 Apr. 2025.
