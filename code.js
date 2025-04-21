@@ -1,7 +1,7 @@
 // Kane Kriz
 // UWYO COSC 3020 Algorithms
 // Dynamic Euler - primary js file
-// 17 April 2025
+// 21 April 2025
 //
 //
 
@@ -23,7 +23,7 @@ function factorial(n)
     }
 }
 
-function e(n) //verify this is actually bottom up dynamic programming, trace to see if any repeated work
+function e(n)
 {
     var sum = 0;
     var currentFactorial = 1; 
@@ -31,7 +31,7 @@ function e(n) //verify this is actually bottom up dynamic programming, trace to 
 
     while(currentVal <= n) 
     {
-        if (currentVal > 0) 
+        if(currentVal > 0) 
         {
             currentFactorial = factorial(currentVal);
         }
