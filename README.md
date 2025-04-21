@@ -22,6 +22,8 @@ What is the worst-case big $\Theta$ time complexity of your algorithm?
 
 //
 
+the linter is upset so I am adding this line in the hope it fixes itself
+
 
 Name: Kane Kriz
 
