@@ -27,7 +27,7 @@ Name: Kane Kriz
 
 Start Date: 17 April 2025
 
-Last Edited: 17 April 2025
+Last Edited: 21 April 2025
 
 Feedback Request 1 Date: X
 
@@ -35,8 +35,13 @@ Feedback Request 1 Date: X
 //
 
 
-Response: Incomplete
+Response: WIP
 
+To adress the question of what the worst case big theta time complexity of the algorithm is, I have chosen to first cover the factorial() function, followed by the e() function within the implementation.
+
+.....
+
+The worst case big theta time complexity is
 
 
 //
