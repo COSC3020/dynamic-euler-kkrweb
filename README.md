@@ -47,7 +47,9 @@ The primary logic of the implementation is held within the `e(n)` function.
 
 Within the `e(n)` function, shown in the while loop structure `while(currentVal <= n)`, the factorial values are computed iteratively rather than recursively. 
 
-The `currentFactorial` variable maintains state across loop iterations, as seen in the critical update line `currentFactorial *= currentVal` which is only called when `currentVal > 0`.
+The `currentFactorial` variable persists across loop iterations.
+
+This is evident with the line `currentFactorial *= currentVal`, which is only called when `currentVal > 0`.
 
 This allows each new factorial to be calculated in constant time by multiplying the previous value.
 
