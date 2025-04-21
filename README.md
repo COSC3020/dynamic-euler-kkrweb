@@ -29,7 +29,7 @@ Start Date: 17 April 2025
 
 Last Edited: 21 April 2025
 
-Feedback Request 1 Date: X
+Feedback Request 1 Date: 21 April 2025
 
 
 
@@ -82,3 +82,7 @@ Plagiarism Acknowledgement: I certify that I have listed all sources used to com
 
 
 Citations:
+
+https://programming.guide/dynamic-programming-vs-memoization-vs-tabulation.html
+
+https://cs.stackexchange.com/questions/99513/dynamic-programming-vs-memoization
